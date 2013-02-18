@@ -2,22 +2,22 @@ object Vivo\CMS\Model\Document {
 	uuid string "B2C402EA704607BC7F385BB3659AE3DA"
 	searchable boolean true
 	created object DateTime {
-		date string "2011-02-22 13:08:58"
+		date string "2011-02-22 23:52:14"
 		timezone_type integer 3
 		timezone string "Europe/Prague"
 	}
 	createdBy string "LUNDEGAARDNET\mhajek"
 	modified object DateTime {
-		date string "2013-01-23 17:29:11"
+		date string "2013-02-13 23:52:14"
 		timezone_type integer 3
 		timezone string "Europe/Prague"
 	}
 	modifiedBy string "LUNDEGAARDNET\gcizkova"
-	title string "CS"
+	title string "Home"
 	language string "cs"
 	description string ""
-	allowListing NULL
-	position integer 0
+	allowListing boolean false
+	position string "0"
 	sorting string ""
 	replicationGroupId string ""
 	lastPath NULL

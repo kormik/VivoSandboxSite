@@ -2,19 +2,19 @@ object Vivo\CMS\Model\Content\File {
 	uuid string "8564607E9C8C9246125FE95BFC28D7F8"
 	searchable boolean true
 	created object DateTime {
-		date string "2010-10-05 16:07:14"
+		date string "2010-10-05 18:44:15"
 		timezone_type integer 3
 		timezone string "Europe/Prague"
 	}
 	createdBy string "LUNDEGAARDNET\jtonar"
 	modified object DateTime {
-		date string "2013-01-23 17:29:11"
+		date string "2013-02-17 18:44:15"
 		timezone_type integer 3
 		timezone string "Europe/Prague"
 	}
 	modifiedBy string "LUNDEGAARDNET\pducho"
 	template NULL
-	state string "PUBLISHED"
+	state string "NEW"
 	stateChange array (
 	)
 	recursive boolean false

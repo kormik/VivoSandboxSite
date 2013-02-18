@@ -2,26 +2,26 @@ object Vivo\CMS\Model\Content\Overview {
 	uuid string "7229B57D31B56B3E3D9A0DA6FBADD0DF"
 	searchable NULL
 	created object DateTime {
-		date string "2013-01-23 16:56:05"
+		date string "2013-01-23 22:07:40"
 		timezone_type integer 3
 		timezone string "Europe/Prague"
 	}
-	createdBy NULL
+	createdBy string ""
 	modified object DateTime {
-		date string "2013-01-23 17:29:11"
+		date string "2013-02-17 22:07:40"
 		timezone_type integer 3
 		timezone string "Europe/Prague"
 	}
-	modifiedBy NULL
+	modifiedBy string ""
 	template string "Vivo\CMS\UI\Content\Overview:Description"
 	state string "PUBLISHED"
 	stateChange NULL
 	recursive NULL
 	overviewType string "DYNAMIC"
-	overviewPath NULL
-	overviewCriteria string "\publishedContents:\"Vivo\CMS\Model\Content\File\""
-	overviewSorting NULL
-	overviewLimit integer 10
+	overviewPath string ""
+	overviewCriteria string ""
+	overviewSorting string ""
+	overviewLimit string ""
 	overviewItems array (
 	)
 }

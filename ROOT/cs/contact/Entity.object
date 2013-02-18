@@ -2,13 +2,13 @@ object Vivo\CMS\Model\Document {
 	uuid string "B8114E364BA35DDBF1FEFC092C03F258"
 	searchable boolean true
 	created object DateTime {
-		date string "2010-10-05 16:07:14"
+		date string "2010-10-05 18:44:14"
 		timezone_type integer 3
 		timezone string "Europe/Prague"
 	}
 	createdBy string "LUNDEGAARDNET\jtonar"
 	modified object DateTime {
-		date string "2013-01-23 17:29:11"
+		date string "2013-02-17 18:44:14"
 		timezone_type integer 3
 		timezone string "Europe/Prague"
 	}
@@ -17,7 +17,7 @@ object Vivo\CMS\Model\Document {
 	language string "en"
 	description string ""
 	allowListing boolean false
-	position integer 70
+	position string "70"
 	sorting string ""
 	replicationGroupId string ""
 	lastPath NULL
